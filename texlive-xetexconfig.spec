@@ -5,7 +5,7 @@
 # catalog-license undef
 # catalog-version undef
 Name:		texlive-xetexconfig
-Version:	20111103
+Version:	20111104
 Release:	1
 Summary:	Configuration files for XeTeX
 Group:		Publishing
