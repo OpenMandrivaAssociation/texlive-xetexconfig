@@ -1,12 +1,12 @@
-# revision 18937
+# revision 26762
 # category Package
 # catalog-ctan undef
 # catalog-date undef
 # catalog-license undef
 # catalog-version undef
 Name:		texlive-xetexconfig
-Version:	20111104
-Release:	2
+Version:	20120809
+Release:	1
 Summary:	Configuration files for XeTeX
 Group:		Publishing
 URL:		http://tug.org/texlive
