@@ -44,3 +44,21 @@ XeTeX.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Thu Aug 09 2012 Paulo Andrade <pcpa@mandriva.com.br> 20120809-1
++ Revision: 813187
+- Update to latest release.
+
+* Thu Jan 05 2012 Paulo Andrade <pcpa@mandriva.com.br> 20111104-2
++ Revision: 757594
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20111104-1
++ Revision: 719929
+- texlive-xetexconfig
+- texlive-xetexconfig
+- texlive-xetexconfig
+- texlive-xetexconfig
+
