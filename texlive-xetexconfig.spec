@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-xetexconfig
 Version:	20131009
-Release:	3
+Release:	4
 Summary:	Configuration files for XeTeX
 Group:		Publishing
 URL:		http://tug.org/texlive
