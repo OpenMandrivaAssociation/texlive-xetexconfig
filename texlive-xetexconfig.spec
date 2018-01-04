@@ -1,12 +1,6 @@
-# revision 28819
-# category Package
-# catalog-ctan undef
-# catalog-date undef
-# catalog-license undef
-# catalog-version undef
 Name:		texlive-xetexconfig
-Version:	20131009
-Release:	9
+Version:	20171119
+Release:	1
 Summary:	Configuration files for XeTeX
 Group:		Publishing
 URL:		http://tug.org/texlive
@@ -31,8 +25,7 @@ XeTeX.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/generic/xetexconfig/unicode-letters.tex
-%{_texmfdistdir}/tex/xelatex/xetexconfig/crop.cfg
+%{_texmfdistdir}/tex/xelatex/xetexconfig
 
 #-----------------------------------------------------------------------
 %prep
