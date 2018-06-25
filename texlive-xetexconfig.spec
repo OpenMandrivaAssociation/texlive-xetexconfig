@@ -1,5 +1,5 @@
 Name:		texlive-xetexconfig
-Version:	20171119
+Version:	20180303
 Release:	1
 Summary:	Configuration files for XeTeX
 Group:		Publishing
