@@ -1,6 +1,6 @@
 Name:		texlive-xetexconfig
 Version:	45845
-Release:	1
+Release:	2
 Summary:	Configuration files for XeTeX
 Group:		Publishing
 URL:		http://tug.org/texlive
