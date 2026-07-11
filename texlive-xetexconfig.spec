@@ -1,38 +1,18 @@
-Name:		texlive-xetexconfig
-Version:	45845
-Release:	2
-Summary:	Configuration files for XeTeX
+%global tl_name xetexconfig
+%global tl_revision 45845
+
+Name:		texlive-%{tl_name}
+Version:	%{tl_revision}
+Release:	1
+Summary:	crop.cfg for XeLaTeX
 Group:		Publishing
-URL:		https://tug.org/texlive
-License:	http://www.tug.org/texlive/LICENSE.TL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/xetexconfig.r%{version}.tar.xz
+URL:		https://www.ctan.org/pkg/xetexconfig
+License:	LPPL
+Source0:	https://mirrors.ctan.org/systems/texlive/tlnet/archive/xetexconfig.r%{tl_revision}.tar.xz
 BuildArch:	noarch
-BuildRequires:	texlive-tlpkg
-Requires(pre):	texlive-tlpkg
-Requires(post):	texlive-kpathsea
+BuildSystem:	texlive
+Provides:	texlive(%{tl_name}) = %{tl_revision}
 
 %description
-unicode-letters, and special crop.cfg and hyperref.cfg for
-XeTeX.
+crop.cfg for XeLaTeX
 
-%post
-%{_sbindir}/texlive.post
-
-%postun
-if [ $1 -eq 0 ]; then
-	%{_sbindir}/texlive.post
-fi
-
-#-----------------------------------------------------------------------
-%files
-%{_texmfdistdir}/tex/xelatex/xetexconfig
-
-#-----------------------------------------------------------------------
-%prep
-%autosetup -p1 -c
-
-%build
-
-%install
-mkdir -p %{buildroot}%{_texmfdistdir}
-cp -fpar tex %{buildroot}%{_texmfdistdir}
